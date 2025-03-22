@@ -192,3 +192,26 @@ body {
         transform: rotate(360deg);
     }
 }
+
+.timer-info {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 15px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.info-item i {
+    font-size: 1.2rem;
+    color: #666;
+}
