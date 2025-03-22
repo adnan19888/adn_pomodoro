@@ -10,44 +10,44 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #ffffff;
 }
 
 .container {
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.9);
     padding: 2rem;
     border-radius: 20px;
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .timer-container {
     text-align: center;
-    color: white;
+    color: #333;
 }
 
 .clock-icon {
     font-size: 4rem;
     margin-bottom: 1rem;
     animation: pulse 2s infinite;
+    color: #333;
 }
 
 .timer-display {
     font-size: 4.5rem;
     font-weight: bold;
     margin: 1rem 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    color: #333;
 }
 
 .timer-badge {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.05);
     padding: 0.5rem 1.5rem;
     border-radius: 20px;
     display: inline-block;
     margin-bottom: 1.5rem;
     font-size: 1.1rem;
-    backdrop-filter: blur(5px);
+    color: #333;
 }
 
 .controls {
@@ -57,20 +57,19 @@ body {
 }
 
 .btn {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.05);
     border: none;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    color: white;
+    color: #333;
     font-size: 1.2rem;
     cursor: pointer;
     transition: all 0.3s ease;
-    backdrop-filter: blur(5px);
 }
 
 .btn:hover {
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(0, 0, 0, 0.1);
     transform: scale(1.1);
 }
 
@@ -118,8 +117,7 @@ body {
 .title-container h1 {
     margin: 0;
     font-size: 2.5rem;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    color: #333;
 }
 
 .timer-options {
@@ -130,28 +128,27 @@ body {
 }
 
 .duration-btn {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.05);
     border: none;
     padding: 0.8rem 1.5rem;
     border-radius: 15px;
-    color: white;
+    color: #333;
     font-size: 1.2rem;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
-    backdrop-filter: blur(5px);
     min-width: 100px;
 }
 
 .duration-btn:hover {
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(0, 0, 0, 0.1);
     transform: scale(1.05);
 }
 
 .duration-btn.active {
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(0, 0, 0, 0.15);
     font-weight: 800;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 .profile-picture {
@@ -166,8 +163,8 @@ body {
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 
@@ -181,7 +178,7 @@ body {
     left: -10px;
     right: -10px;
     bottom: -10px;
-    border: 2px solid rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     animation: rotate 10s linear infinite;
 }
