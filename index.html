@@ -12,6 +12,28 @@
 <body>
     <div class="container">
         <div class="timer-container">
+            <div class="timer-header">
+                <h1>Pomodoro Timer</h1>
+                <div class="timer-options">
+                    <button class="duration-btn active" data-duration="15">15 min</button>
+                    <button class="duration-btn" data-duration="20">20 min</button>
+                    <button class="duration-btn" data-duration="25">25 min</button>
+                </div>
+                <div class="timer-info">
+                    <div class="info-item">
+                        <i class="fas fa-briefcase"></i>
+                        <span>Work: <span id="work-duration">25</span> min</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-coffee"></i>
+                        <span>Break: 5 min</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-moon"></i>
+                        <span>Long Break: 15 min</span>
+                    </div>
+                </div>
+            </div>
             <div class="clock-icon">
                 <i class="fas fa-clock"></i>
             </div>
@@ -19,7 +41,7 @@
                 <span id="minutes">25</span>:<span id="seconds">00</span>
             </div>
             <div class="timer-badge">
-                <span id="timer-status">Work Time</span>
+                <span id="timer-status">Work Time (25:00)</span>
             </div>
             <div class="controls">
                 <button id="start" class="btn">
@@ -31,6 +53,9 @@
                 <button id="reset" class="btn">
                     <i class="fas fa-redo"></i>
                 </button>
+            </div>
+            <div class="session-info">
+                <p>Complete 4 work sessions to get a long break</p>
             </div>
         </div>
     </div>
